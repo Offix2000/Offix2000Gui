@@ -28,7 +28,6 @@ AdminButton.BackgroundColor3 = Color3.new(0,1,0)
 AdminButton.Text = "Admin"
 AdminButton.MouseButton1Click:Connect(function()
     require(7192763922).load("%username%")
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 end)
 MessageButton.Parent = Offix2000Gui
 MessageButton.Size = UDim2.new(0,137,0,50)
