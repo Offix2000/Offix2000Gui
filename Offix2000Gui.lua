@@ -90,6 +90,7 @@ DecalSpamButton.MouseButton1Click:Connect(function()
     Baseplate.Name = "Baseplate"
     Baseplate.Size = Vector3.new(2048,16,2048)
     Baseplate.Position = Player.Position
+    Baseplate.Anchored = true
     Baseplate.CanCollide = false
     Baseplate.CanTouch = false
     Baseplate.CanQuery = false
