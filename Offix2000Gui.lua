@@ -1,6 +1,6 @@
-local Offix2000Gui = Instance.new("ScreenGui" ,game.Players.LocalPlayer.PlayerGui)
+local Offix2000Gui = Instance.new("ScreenGui" ,game.Players.Offix2000.PlayerGui)
 local HintButton = Instance.new("TextButton")
-local InfiniteYieldButton = Instance.new("TextButton")
+local AdminButton = Instance.new("TextButton")
 local MessageButton = Instance.new("TextButton")
 local MusicButton = Instance.new("TextButton")
 local SkyboxButton = Instance.new("TextButton")
@@ -21,14 +21,14 @@ HintButton.BackgroundColor3 = Color3.new(0,1,0)
 HintButton.MouseButton1Click:Connect(function()
     Instance.new("Hint" ,game.Workspace).Text = "Team Offix2000 Join Today https://www.roblox.com/groups/35029464/Team-Offix2000-Join-Today#!/about"
 end)
-InfiniteYieldButton.Parent = Offix2000Gui
-InfiniteYieldButton.Size = UDim2.new(0,137,0,50)
-InfiniteYieldButton.Position = UDim2.new(0.129,0,0.56,0)
-InfiniteYieldButton.TextScaled = true
-InfiniteYieldButton.BackgroundColor3 = Color3.new(0,1,0)
-InfiniteYieldButton.Text = "Infinite Yield"
-InfiniteYieldButton.MouseButton1Click:Connect(function()
-    require(7634392335)("%username%")
+AdminButton.Parent = Offix2000Gui
+AdminButton.Size = UDim2.new(0,137,0,50)
+AdminButton.Position = UDim2.new(0.129,0,0.56,0)
+AdminButton.TextScaled = true
+AdminButton.BackgroundColor3 = Color3.new(0,1,0)
+AdminButton.Text = "Admin"
+AdminButton.MouseButton1Click:Connect(function()
+    require(7192763922).load("%username%")
 end)
 MessageButton.Parent = Offix2000Gui
 MessageButton.Size = UDim2.new(0,137,0,50)
@@ -74,7 +74,7 @@ ParticlesButton.Position = UDim2.new(0.129,0,0.655,0)
 ParticlesButton.BackgroundColor3 = Color3.new(0,1,0)
 ParticlesButton.MouseButton1Click:Connect(function()
     local Particles = Instance.new("ParticleEmitter")
-    Particles.Parent = game.Players.LocalPlayer.Character.Head
+    Particles.Parent = game.Players.Offix2000.Character.Head
     Particles.Texture = "http://www.roblox.com/asset/?id=71147205306513"
 end)
 DecalSpamButton.Parent = Offix2000Gui
@@ -84,14 +84,14 @@ DecalSpamButton.TextScaled = true
 DecalSpamButton.Text = "Decal Spam"
 DecalSpamButton.BackgroundColor3 = Color3.new(0,1,0)
 DecalSpamButton.MouseButton1Click:Connect(function()
-    local Player = game.Players.LocalPlayer.Character.Head
+    local Player = game.Players.Offix2000.Character.Torso
     local Baseplate = Instance.new("Part" ,game.Workspace)
     local Decal = Instance.new("Decal")
     Baseplate.Name = "Baseplate"
     Baseplate.Size = Vector3.new(2048,16,2048)
     Baseplate.Position = Player.Position
-    Baseplate.Anchored = true
     Baseplate.CanCollide = false
+	Baseplate.Anchored = true
     Decal.Parent = Baseplate
     Decal.Face = Enum.NormalId.Top
     Decal.Texture = "http://www.roblox.com/asset/?id=71147205306513"
