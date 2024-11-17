@@ -74,7 +74,7 @@ ParticlesButton.Position = UDim2.new(0.129,0,0.655,0)
 ParticlesButton.BackgroundColor3 = Color3.new(0,1,0)
 ParticlesButton.MouseButton1Click:Connect(function()
     local Particles = Instance.new("ParticleEmitter")
-    Particles.Parent = game.Players.Offix2000.Character.Head
+    Particles.Parent = game.Players.LocalPlayer.Character.Head
     Particles.Texture = "http://www.roblox.com/asset/?id=71147205306513"
 end)
 DecalSpamButton.Parent = Offix2000Gui
