@@ -1,4 +1,4 @@
-local Offix2000Gui = Instance.new("ScreenGui" ,game.Players.Offix2000.PlayerGui)
+local Offix2000Gui = Instance.new("ScreenGui" ,game.Players.LocalPlayer.PlayerGui)
 local HintButton = Instance.new("TextButton")
 local AdminButton = Instance.new("TextButton")
 local MessageButton = Instance.new("TextButton")
@@ -81,10 +81,10 @@ DecalSpamButton.Parent = Offix2000Gui
 DecalSpamButton.Position = UDim2.new(0.008,0,0.782,0)
 DecalSpamButton.Size = UDim2.new(0,321,0,50)
 DecalSpamButton.TextScaled = true
-DecalSpamButton.Text = "Decal Spam"
+DecalSpamButton.Text = "Decal Spam (Only R6)"
 DecalSpamButton.BackgroundColor3 = Color3.new(0,1,0)
 DecalSpamButton.MouseButton1Click:Connect(function()
-    local Player = game.Players.Offix2000.Character.Torso
+    local Player = game.Players.LocalPlayer.Character.Torso
     local Baseplate = Instance.new("Part" ,game.Workspace)
     local Decal = Instance.new("Decal")
     Baseplate.Name = "Baseplate"
