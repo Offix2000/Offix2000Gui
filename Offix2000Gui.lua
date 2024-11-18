@@ -90,8 +90,7 @@ DecalSpamButton.MouseButton1Click:Connect(function()
     Baseplate.Name = "Baseplate"
     Baseplate.Size = Vector3.new(2048,16,2048)
     Baseplate.Position = Player.Position
-    Baseplate.CanCollide = false
-	Baseplate.Anchored = true
+    Baseplate.Anchored = true
     Decal.Parent = Baseplate
     Decal.Face = Enum.NormalId.Top
     Decal.Texture = "http://www.roblox.com/asset/?id=71147205306513"
