@@ -44,13 +44,13 @@ MusicButton.Parent = Offix2000Gui
 MusicButton.Size = UDim2.new(0,165,0,63)
 MusicButton.Position = UDim2.new(0.008,0,0.655,0)
 MusicButton.TextScaled = true
-MusicButton.Text = "Fly (Only R15)"
+MusicButton.Text = "Fly (Only R6)"
 MusicButton.BackgroundColor3 = Color3.new(0,1,0)
 MusicButton.MouseButton1Click:Connect(function()
     local Fly = Instance.new("Part" ,game.Workspace)
     while true do
       wait(0.1)
-      Fly.Position = game.Players.LocalPlayer.Character.LeftFoot.Position
+      Fly.Position = game.Players.LocalPlayer.Character["Left Leg"].Position
       Fly.Transparency = 1
       Fly.Name = "Fly"
     end
