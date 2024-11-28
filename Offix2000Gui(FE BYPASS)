@@ -26,7 +26,7 @@ AdminButton.Size = UDim2.new(0,137,0,50)
 AdminButton.Position = UDim2.new(0.129,0,0.56,0)
 AdminButton.TextScaled = true
 AdminButton.BackgroundColor3 = Color3.new(0,1,0)
-AdminButton.Text = "Admin"
+AdminButton.Text = "Admin (Prision Life)"
 AdminButton.MouseButton1Click:Connect(function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/elliexmln/PrizzLife/refs/heads/main/Source/release_v0.8.1.lua",true))()
 end)
@@ -37,7 +37,7 @@ MessageButton.TextScaled = true
 MessageButton.Text = "Unfly"
 MessageButton.BackgroundColor3 = Color3.new(0,1,0)
 MessageButton.MouseButton1Click:Connect(function()
-    game.Players.LocalPlayer.Character.LeftFoot.Part:Destroy()
+    game.Workspace.Fly:Destroy()
 end)
 MusicButton.Parent = Offix2000Gui
 MusicButton.Size = UDim2.new(0,165,0,63)
@@ -51,6 +51,7 @@ MusicButton.MouseButton1Click:Connect(function()
       wait(0.1)
       Fly.Position = game.Players.LocalPlayer.Character.LeftFoot.Position
       Fly.Transparency = 1
+      Fly.Name = "Fly"
     end
 end)
 SkyboxButton.Parent = Offix2000Gui
