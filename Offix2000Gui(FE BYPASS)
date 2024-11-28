@@ -8,6 +8,7 @@ local ParticlesButton = Instance.new("TextButton")
 local DecalSpamButton = Instance.new("TextButton")
 local Title = Instance.new("TextLabel")
 local Frame = Instance.new("Frame")
+Offix2000Gui.ResetOnSpawn = false
 Frame.Parent = Offix2000Gui
 Frame.Size = UDim2.new(0,379,0,349)
 Frame.Position = UDim2.new(-0.021,0,0.381,0)
