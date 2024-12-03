@@ -18,7 +18,7 @@ HintButton.Size = UDim2.new(0,165,0,50)
 HintButton.Position = UDim2.new(0.008,0,0.441,0)
 HintButton.Text = "Backdoor.exe"
 HintButton.TextScaled = true
-HintButton.BackgroundColor3 = Color3.new(0,1,0)
+HintButton.BackgroundColor3 = Color3.new(0.870588,0.870588,0.870588)
 HintButton.MouseButton1Click:Connect(function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/v8/src/main.lua"))()
 end)
@@ -26,7 +26,7 @@ AdminButton.Parent = Offix2000Gui
 AdminButton.Size = UDim2.new(0,137,0,50)
 AdminButton.Position = UDim2.new(0.129,0,0.56,0)
 AdminButton.TextScaled = true
-AdminButton.BackgroundColor3 = Color3.new(0,1,0)
+AdminButton.BackgroundColor3 = Color3.new(0.870588,0.870588,0.870588)
 AdminButton.Text = "Admin (Prision Life)"
 AdminButton.MouseButton1Click:Connect(function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/elliexmln/PrizzLife/refs/heads/main/Source/release_v0.8.1.lua",true))()
@@ -36,7 +36,7 @@ MessageButton.Size = UDim2.new(0,137,0,50)
 MessageButton.Position = UDim2.new(0.129,0,0.441,0)
 MessageButton.TextScaled = true
 MessageButton.Text = "Unfly"
-MessageButton.BackgroundColor3 = Color3.new(0,1,0)
+MessageButton.BackgroundColor3 = Color3.new(0.870588,0.870588,0.870588)
 MessageButton.MouseButton1Click:Connect(function()
     game.Workspace.Fly:Destroy()
 end)
@@ -45,7 +45,7 @@ MusicButton.Size = UDim2.new(0,165,0,63)
 MusicButton.Position = UDim2.new(0.008,0,0.655,0)
 MusicButton.TextScaled = true
 MusicButton.Text = "Fly (Only R6)"
-MusicButton.BackgroundColor3 = Color3.new(0,1,0)
+MusicButton.BackgroundColor3 = Color3.new(0.870588,0.870588,0.870588)
 MusicButton.MouseButton1Click:Connect(function()
     local Fly = Instance.new("Part" ,game.Workspace)
     while true do
@@ -60,7 +60,7 @@ SkyboxButton.Size = UDim2.new(0,165,0,50)
 SkyboxButton.Position = UDim2.new(0.008,0,0.56,0)
 SkyboxButton.TextScaled = true
 SkyboxButton.Text = "Sonic"
-SkyboxButton.BackgroundColor3 = Color3.new(0,1,0)
+SkyboxButton.BackgroundColor3 = Color3.new(0.870588,0.870588,0.870588)
 SkyboxButton.MouseButton1Click:Connect(function()
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
 end)
@@ -69,7 +69,7 @@ ParticlesButton.TextScaled = true
 ParticlesButton.Text =  "Infinite Yield"
 ParticlesButton.Size = UDim2.new(0,137,0,63)
 ParticlesButton.Position = UDim2.new(0.129,0,0.655,0)
-ParticlesButton.BackgroundColor3 = Color3.new(0,1,0)
+ParticlesButton.BackgroundColor3 = Color3.new(0.870588,0.870588,0.870588)
 ParticlesButton.MouseButton1Click:Connect(function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 end)
@@ -78,7 +78,7 @@ DecalSpamButton.Position = UDim2.new(0.008,0,0.782,0)
 DecalSpamButton.Size = UDim2.new(0,321,0,50)
 DecalSpamButton.TextScaled = true
 DecalSpamButton.Text = "Sit"
-DecalSpamButton.BackgroundColor3 = Color3.new(0,1,0)
+DecalSpamButton.BackgroundColor3 = Color3.new(0.870588,0.870588,0.870588)
 DecalSpamButton.MouseButton1Click:Connect(function()
     game.Players.LocalPlayer.Character.Humanoid.Sit = true
 end)
@@ -87,4 +87,4 @@ Title.Position = UDim2.new(0,0,0.304,0)
 Title.Size = UDim2.new(0,355,0,46)
 Title.TextScaled = true
 Title.Text = "Offix2000Gui (FE BYPASS EDITION) By Team Offix2000"
-Title.BackgroundColor3 = Color3.new(0,1,0)
+Title.BackgroundColor3 = Color3.new(0.870588,0.870588,0.870588)
