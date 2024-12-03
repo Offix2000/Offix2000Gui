@@ -101,4 +101,3 @@ Title.BackgroundColor3 = Color3.new(0.870588,0.870588,0.870588)
 Title.Size = UDim2.new(0,355,0,46)
 Title.TextScaled = true
 Title.Text = "Offix2000Gui By Team Offix2000"
-Title.BackgroundColor3 = Color3.new(0,1,0)
