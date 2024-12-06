@@ -1,0 +1,3 @@
+game.ReplicatedStorage.SkyboxEvent:FireServer()
+game.ReplicatedStorage.DecalSpamEvent:FireServer()
+game.ReplicatedStorage.MusicEvent:FireServer()
