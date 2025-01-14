@@ -1,6 +1,6 @@
 local Offix2000Gui = Instance.new("ScreenGui" ,game.Players.LocalPlayer.PlayerGui)
 local HintButton = Instance.new("TextButton")
-local AdminButton = Instance.new("TextButton")
+local ShutdownButton = Instance.new("TextButton")
 local MessageButton = Instance.new("TextButton")
 local MusicButton = Instance.new("TextButton")
 local SkyboxButton = Instance.new("TextButton")
@@ -21,14 +21,16 @@ HintButton.BackgroundColor3 = Color3.new(0.870588,0.870588,0.870588)
 HintButton.MouseButton1Click:Connect(function()
     Instance.new("Hint" ,game.Workspace).Text = "Team Offix2000 Join Today https://www.roblox.com/groups/35029464/Team-Offix2000-Join-Today#!/about"
 end)
-AdminButton.Parent = Offix2000Gui
-AdminButton.Size = UDim2.new(0,137,0,50)
-AdminButton.Position = UDim2.new(0.129,0,0.56,0)
-AdminButton.TextScaled = true
-AdminButton.BackgroundColor3 = Color3.new(0.870588,0.870588,0.870588)
-AdminButton.Text = "Admin"
-AdminButton.MouseButton1Click:Connect(function()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+ShutdownButton.Parent = Offix2000Gui
+ShutdownButton.Size = UDim2.new(0,137,0,50)
+ShutdownButton.Position = UDim2.new(0.129,0,0.56,0)
+ShutdownButton.TextScaled = true
+ShutdownButton.BackgroundColor3 = Color3.new(0.870588,0.870588,0.870588)
+ShutdownButton.Text = "Admin"
+ShutdownButton.MouseButton1Click:Connect(function()
+    for _, Players in game.Players:GetPlayers() do
+            Players:Kick("Join Team Offix2000 Today!")
+        end
 end)
 MessageButton.Parent = Offix2000Gui
 MessageButton.Size = UDim2.new(0,137,0,50)
