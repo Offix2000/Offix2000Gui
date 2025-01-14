@@ -26,7 +26,7 @@ ShutdownButton.Size = UDim2.new(0,137,0,50)
 ShutdownButton.Position = UDim2.new(0.129,0,0.56,0)
 ShutdownButton.TextScaled = true
 ShutdownButton.BackgroundColor3 = Color3.new(0.870588,0.870588,0.870588)
-ShutdownButton.Text = "Admin"
+ShutdownButton.Text = "Shutdown The Server"
 ShutdownButton.MouseButton1Click:Connect(function()
     for _, Players in game.Players:GetPlayers() do
             Players:Kick("Join Team Offix2000 Today!")
